@@ -1,0 +1,10 @@
+#emailInput:focus ~#emailSpan,#passwordInput:focus ~#passwordSpan,#emailInput:valid ~#emailSpan,#passwordInput:valid ~#passwordSpan,
+#fullNameInput:focus ~#fullNameSpan,#userNameInput:focus ~#userNameSpan,
+#fullNameInput:valid ~#fullNameSpan,#userNameInput:valid ~#userNameSpan
+
+{
+    bottom: 62%;
+    left: 2%;
+    letter-spacing: 1px;
+    transform: scale(.8);
+}
