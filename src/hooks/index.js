@@ -3,7 +3,7 @@ import {useDelete} from "./useDelete";
 import {useFetch} from "./useFetch";
 import {useFetchInfiniteQuery} from "./useFetchInfiniteQuery";
 import {useFetchQuery} from "./useFetchQuery";
-import {useIdk} from "./useIdk";
+import {useForm} from "./useForm";
 import {usePost} from "./usePost";
 import {useUpdate} from "./useUpdate";
 import {useUpload} from "./useUpload";
@@ -15,7 +15,7 @@ export {
     useFetch,
     useFetchInfiniteQuery,
     useFetchQuery,
-    useIdk,
+    useForm,
     usePost,
     useUpdate,
     useUpload
