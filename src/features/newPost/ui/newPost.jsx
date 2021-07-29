@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useIdk } from "../../../hooks/";
+import { useForm } from "../../../hooks/";
 import { useCreatePost } from "../logic/useCreatePost";
 import {Flex,Avatar,PostBtn} from "../../common/ui/commonStyle";
 import {TextArea,Icon,InputFile,Emoticons,Wrapper,Media,SelectedFile,Close} from "./style";
@@ -19,7 +19,7 @@ const NewPost = ({userData : {userName,profileImg}})=>{
     handleUploadImg,
     handleUploadVideo,
     handleShowEmoticon,
-    onEmojiClick} = useIdk() ;
+    onEmojiClick} = useForm() ;
     const {handlePost} = useCreatePost({text,image,video,postDate:Date.now()},dispatch);
  
     return(

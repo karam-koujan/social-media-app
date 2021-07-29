@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation} from "react-router-dom";
 import {useLogout} from "../../../auth/logic/useLogout";
-import {useFetchQuery,useIdk} from "../../../../hooks/"; 
+import {useFetchQuery,useForm} from "../../../../hooks/"; 
 import {Board,BoardItem,Logout,ToProfile,Wrapper,Search,SearchIcon,Label,Home, NavItems,Explor,NavBar,Chat,Notification, SearchWrapper} from "./style";
 import {Avatar} from "../../ui/commonStyle.js";
 import Logo from "../../ui/logo";
@@ -11,7 +11,7 @@ const Header = ()=>{
   const fetchProfileName = useFetchQuery("profileName","https://instegram-clone.herokuapp.com/api/profile/info/userName");
   const fetchProfileImg = useFetchQuery("profileImg","https://instegram-clone.herokuapp.com/api/profile/info/profileImg");
   const {pathname} = useLocation();
-  const {text,handleChange} = useIdk();
+  const {text,handleChange} = useForm();
   const [showBoard,setShowBoard] = useState(false);
   const {handleLogOut} = useLogout()
   return(

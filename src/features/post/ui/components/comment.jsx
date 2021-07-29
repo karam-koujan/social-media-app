@@ -10,7 +10,7 @@ const Comment = ({text,commentedBy,isImgExist})=>{
                         <Avatar size="35px">
                           <img src={commentedBy.profileImg}/>
                         </Avatar>   
-                   <Txt margin="0 0 .5rem .8rem">
+                   <Txt margin="0 0 .5rem .5rem">
                        <UserName fontWeight="bold" margin="0 .8rem 0 0" to={`/profile/${commentedBy.userName}`}>{commentedBy.userName}</UserName>
                         {text}
                    </Txt>
@@ -19,7 +19,7 @@ const Comment = ({text,commentedBy,isImgExist})=>{
         }else{
 
         return(
-               <Txt margin="0 0 .5rem 1.3rem">
+               <Txt margin="0 0 .5rem .5rem">
                     <UserName fontWeight="bold" margin="0 .8rem 0 0" to={`/profile/${commentedBy.userName}`}>{commentedBy.userName}</UserName>
                         {text}
                    </Txt>

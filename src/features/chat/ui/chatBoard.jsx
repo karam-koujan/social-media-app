@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from "react";
-import {useIdk} from "../../../hooks/";
+import {useForm} from "../../../hooks/";
 import {ChatBoardWrapper, Form,UserName,MessageBoard, MessageInput,Send,MessageWrapper,MessagesWrapper,Emoticons,Message,SelectedFriend,FriendMessage,Writing} from "./style";
 import {Flex,Avatar,Icon} from "../../common/ui/commonStyle";
 import emoji from "../../../assets/icons/emoji.svg" 
@@ -11,7 +11,7 @@ import {useFriendContext} from "../../../pages/chat/friend-context";
 const ChatBoard = ({userId})=>{
   
   const {selectedFriend} = useFriendContext()
-  const {handleChange,text,onEmojiClick,showEmoticons,dispatch,handleShowEmoticon} = useIdk();
+  const {handleChange,text,onEmojiClick,showEmoticons,dispatch,handleShowEmoticon} = useForm();
   const {messages,handleSendMessage,handleStartWriting,handleStopWriting,startWriting} = useChatBoard(text,userId,dispatch)
   const messageBoardRef = useRef(); 
   useEffect(()=>{

@@ -39,7 +39,7 @@ const Post = ({image,text,video,likes,comments,profileImg,userName,postId,posted
                   </WhiteHeart>
               ):null
               }
-              <img src={image} alt="post image"/>
+              <img loading="lazy" src={image} alt="post image"/>
           </PostImg>
           ):(
           <PostVideo position="relative" onClick={handlePlayVideo}>
