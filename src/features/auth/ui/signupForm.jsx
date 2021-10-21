@@ -40,9 +40,8 @@ const SignUp = ()=>{
           if(data){
               setIsLoading(false)
           }
-          if(!data.signup){
-              //data.error
-             setErrorMsg(data.error.details[0].message)
+          if(!data.signup){             
+              setErrorMsg(data.error)
           }else{
             history.push("/login")
             

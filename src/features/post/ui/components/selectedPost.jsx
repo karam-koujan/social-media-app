@@ -37,7 +37,7 @@ const SelectedPost = ({image,text,video,profileImg,userName,postId,likes,comment
        <CommentsSection>
       <Header>
               <Flex alignItems="center">
-              <Link to={`/profile/${userName}`}>
+              <Link to={`/profile/${userName}`} aria-label={`go to ${userName} profile`} >
                   <Avatar size="35px">
                            <img src={profileImg} alt=""/>         
                   </Avatar>

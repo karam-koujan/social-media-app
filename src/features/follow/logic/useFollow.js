@@ -18,10 +18,10 @@ export const useFollow = (followers,followingId,userId)=>{
     const setUpdate = useUpdate()  
     const updateFollow = newData =>{
         if(isFollowed){
-              return setUpdate("https://instegram-clone.herokuapp.com/api/profile/unfollow",newData,true)
+              return setUpdate("https://instegram-clone.netlify.app//api/profile/unfollow",newData,true)
           }
           console.log(isFollowed)
-         return setUpdate("https://instegram-clone.herokuapp.com/api/profile/follow",newData,true)
+         return setUpdate("https://instegram-clone.netlify.app//api/profile/follow",newData,true)
     }
     const mutation  = useMutation(updateFollow,{
         onSuccess : ()=>{

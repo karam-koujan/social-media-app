@@ -10,8 +10,8 @@ import ProfilePosts from "../../features/profileposts/profilePosts";
 import Spinner from "../../features/common/ui/spinner"
 const Profile = ()=>{
   const {userName} = useParams();
-  const {data,isLoading} = useFetchQuery(["profile",userName],`https://instegram-clone.herokuapp.com/api/profile/idk/${userName}`); 
-  const profileId = useFetchQuery("profileId","https://instegram-clone.herokuapp.com/api/profile/info/_id");
+  const {data,isLoading} = useFetchQuery(["profile",userName],`http://localhost:8080/api/profile/idk/${userName}`); 
+  const profileId = useFetchQuery("profileId","http://localhost:8080/api/profile/info/_id");
   const{imgUrl,setImgUrl,handleChangeProfileImg,handleUploadImg} = useProfileInfo(userName) ;
 return ( 
       <Layout>

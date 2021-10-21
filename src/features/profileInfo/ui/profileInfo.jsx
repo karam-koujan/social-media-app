@@ -5,7 +5,7 @@ import FollowBtn from "../../follow/ui/";
 
 
 const ProfileInfo = ({data :{userName,followings,followers,profileImg,_id,userProfile},userId,handleUploadImg})=>{
-    const {data,isLoading} = useFetchQuery(["profilePosts",_id],`https://instegram-clone.herokuapp.com/api/profile/${_id}/posts`)
+    const {data,isLoading} = useFetchQuery(["profilePosts",_id],`https://instegram-clone.netlify.app//api/profile/${_id}/posts`)
     return(
      <Wrapper  margin="2rem auto" width="60%" alignItems="flex-start">
          <ProfileImg size="150px" tabIndex="0">

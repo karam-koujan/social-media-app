@@ -17,7 +17,7 @@ const Post = ({image,text,video,likes,comments,profileImg,userName,postId,posted
         <Wrapper>
           <Header>
               <Flex alignItems="center">
-                  <Link to={`/profile/${userName}`}>
+                  <Link to={`/profile/${userName}`} aria-label={`go to ${userName} profile`}>
                 <Avatar size="35px">
                            <img src={profileImg} alt=""/>         
                   </Avatar>

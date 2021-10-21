@@ -25,7 +25,7 @@ const NewPost = ({userData : {userName,profileImg}})=>{
     return(
             <Wrapper >
               <Flex >
-                   <Link to={`/profile/${userName}`}>
+                   <Link to={`/profile/${userName}`} aria-label={`go to ${userName} profile`}>
                    <Avatar size="40px" >
                        <img src={profileImg} alt="avatar"/>
                    </Avatar>
@@ -68,11 +68,11 @@ const NewPost = ({userData : {userName,profileImg}})=>{
                 <Flex alignItems="center" justifyContent="space-between">
                     <Flex justifyContent="space-between" >
                         <Icon tabIndex="0">
-                            <InputFile type="file" onChange={handleUploadImg}/>
+                            <InputFile type="file" aria-label="upload image" onChange={handleUploadImg}/>
                       <img src={gallary} alt=""/>
                         </Icon>
                        <Icon margin="0 0 0 2rem" tabIndex="0">
-                       <InputFile type="file" onChange={handleUploadVideo}/>
+                       <InputFile type="file" aria-label="upload video" onChange={handleUploadVideo}/>
                            <img src={videoIcon} alt=""/>
                        </Icon>
                     </Flex>

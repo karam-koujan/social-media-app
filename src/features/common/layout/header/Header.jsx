@@ -8,8 +8,8 @@ import Logo from "../../ui/logo";
 import SearchBoard from "../../../search/ui/searchBoard";
 import {Circle} from "../../../loading/style";
 const Header = ()=>{
-  const fetchProfileName = useFetchQuery("profileName","https://instegram-clone.herokuapp.com/api/profile/info/userName");
-  const fetchProfileImg = useFetchQuery("profileImg","https://instegram-clone.herokuapp.com/api/profile/info/profileImg");
+  const fetchProfileName = useFetchQuery("profileName","https://instegram-clone.netlify.app//api/profile/info/userName");
+  const fetchProfileImg = useFetchQuery("profileImg","https://instegram-clone.netlify.app//api/profile/info/profileImg");
   const {pathname} = useLocation();
   const {text,handleChange} = useForm();
   const [showBoard,setShowBoard] = useState(false);
@@ -50,7 +50,7 @@ const Header = ()=>{
                       {!fetchProfileImg.isLoading?
                       (
                         
-                        <div onClick={()=>setShowBoard(!showBoard)} tabIndex="1">
+                        <div onClick={()=>setShowBoard(!showBoard)} tabIndex="0">
                         <Avatar size="22px"  >
                         <img src={fetchProfileImg.data.profileImg} alt="Avatar" />
                         

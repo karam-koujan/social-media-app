@@ -7,7 +7,7 @@ export const Wrapper = styled.section`
    display:flex;
    margin:2rem auto ;
    max-height:550px;
-
+   height:100vh;
    max-width:1200px;
    width:100%;
    @media(max-width:760px){
