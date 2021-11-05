@@ -1,3 +1,12 @@
+# social media app 
+ [project image](./projectImg(1).jpg)
+ [project image](./projectImg(2).jpg)
+ [project image](./projectImg(3).jpg)
+ [project image](./projectImg(4).jpg)
+ [project image](./projectImg(5).jpg)
+ [project image](./projectImg(6).jpg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
