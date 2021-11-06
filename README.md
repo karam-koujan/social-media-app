@@ -1,10 +1,10 @@
 # social media app 
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImg%20(1).jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImg%20(2).jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImg%20(3).jpg)
-![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImg%20(4).jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImg%20(5).jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImg%20(6).jpg)
+ ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(1).jpg)
+ ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(2).jpg)
+ ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(3).jpg)
+![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(4).jpg)
+ ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(5).jpg)
+ ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(6).jpg)
 
 
 # Getting Started with Create React App
