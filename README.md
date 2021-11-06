@@ -10,9 +10,7 @@
  <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg.jpg" width="150px" height="150px">
  <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg.jpg" width="150px" height="150px">
  <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg3.jpg" width="150px" height="150px">
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg.jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg.jpg)
-![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg3.jpg)
+
 
 # Getting Started with Create React App
 
