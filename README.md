@@ -7,9 +7,9 @@
  ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(5).jpg)
  ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(6).jpg)
 
- <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg.jpg" width="250px" height="250px">
- <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg.jpg" width="250px" height="250px">
- <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg3.jpg" width="250px" height="250px">
+ <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg.jpg" width="250px" height="450px">
+ <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg.jpg" width="250px" height="450px">
+ <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg3.jpg" width="250px" height="450px">
 
 
 # Getting Started with Create React App
