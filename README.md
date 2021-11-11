@@ -1,15 +1,8 @@
 # social media app 
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(1).jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(2).jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(7).jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(3).jpg)
-![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(4).jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(5).jpg)
- ![project image](https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg%20(6).jpg)
 
- <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectImg.jpg" width="509px" height="813px">
- <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg.jpg" width="509px" height="813px">
- <img src="https://github.com/karam-koujan/social-media-app/blob/main/projectImage/projectMobileImg3.jpg" width="509px" height="813px">
+
+[![social media app](https://img.youtube.com/vi/TWHMeKpaNpE/0.jpg)](https://youtu.be/TWHMeKpaNpE  "social media app")
+ 
 
 
 # Getting Started with Create React App
